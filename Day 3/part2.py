@@ -1,5 +1,3 @@
-
-
 def get_mode(binaries, *columns):
     """Finds the number of times 0 and 1 appear in each column of a binary
     number.
@@ -33,7 +31,6 @@ def get_mode(binaries, *columns):
                 mode[column][int(binary[column])] += 1
     return mode
                 
-
 def get_data():
     """Opens a text file called "input.txt" and reads all the data into a list.
 
