@@ -55,7 +55,6 @@ for line in data:
                 output += "4"
             else:
                 output += "8"
-        print(output)
         total += int(output)
         continue
 
@@ -212,7 +211,6 @@ for line in data:
         elif value in length9[9]:
             output += "9"
 
-    print(output)
     total += int(output)
     
 print(total)
